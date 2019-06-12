@@ -18,12 +18,16 @@ header,
 
 .header-one{
 
- font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+ font-family: 'Open Sans', 'Helvetica Neue';
 
 }
+.intro-name{
+  font-family:  'Open Sans', 'Helvetica Neue';
+}
+
 
 .top-nav-collapse, .page-footer {
-    background-color: #563e91 !important;
+    background-color: #252a34 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -32,7 +36,7 @@ header,
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: #563e91 !important;
+        background: #252a31 !important;
     }
 }
 
@@ -68,3 +72,4 @@ header,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
     /* IE6-9 */
 }
+
