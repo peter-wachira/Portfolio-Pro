@@ -16,18 +16,24 @@ header,
     }
 }
 
+.page-section {
+	padding: 100px 0;
+  }
+
 .header-one{
 
  font-family: 'Open Sans', 'Helvetica Neue';
 
 }
+
 .intro-name{
   font-family:  'Open Sans', 'Helvetica Neue';
 }
 
 
 .top-nav-collapse, .page-footer {
-    background-color: #252a34 !important;
+	background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6))
+	!important;
 }
 
 .navbar:not(.top-nav-collapse) {
